@@ -12,6 +12,12 @@ dbConfig();
 // Routes
 app.use("/", require("./route"));
 
+//home route
+app.get('/', (req, res) => {
+  res.send('SwiftMove Backend API is running...');
+});
+
+
 // Error handling middleware
 
 app.use(globalErrorHandler);

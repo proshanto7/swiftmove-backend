@@ -66,3 +66,4 @@ rating: Number (1–5)
 | `/api/v1/testimonial/get-testimonial`        | GET    | সব testimonial ডাটা দেখাবে       |
 | `/api/v1/testimonial/update-testimonial/:id` | PATCH  | নির্দিষ্ট testimonial আপডেট করবে |
 | `/api/v1/testimonial/delete-testimonial/:id` | DELETE | নির্দিষ্ট testimonial ডিলিট করবে |
+
